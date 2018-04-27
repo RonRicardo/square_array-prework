@@ -1,3 +1,4 @@
 def square_array(array)
-  array.each {|x| x**2}
+  final_arr = []
+  array.each {|x| final_arr << x**2}
 end
